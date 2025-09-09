@@ -1,0 +1,583 @@
+body{
+    font-family: 'Raleway';
+}
+
+ /* start header*/
+
+header{
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/palmen.png);
+    background-size: cover;
+}
+
+header .container{
+    height: 80vh;
+}
+
+header .header_icon a{
+    color: #3f3f3f;
+    font-size: 35px;
+}
+
+header .header_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header .nav_header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+header nav{
+    display: flex;
+    justify-content: end;
+}
+header .row.nav{
+    height: 33%;
+}
+header nav ul{
+    display: flex;
+    padding-top: 10px;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 150%;
+}
+
+header nav ul li a:hover{
+    color: #7eb808;
+    text-decoration: underline;
+}
+
+header .row.slogan{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    height: 33%;
+}
+header .slogan{
+    justify-content: center;
+    align-items: center;
+}
+header .headline{
+    font-size: 160%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+header .bottomline{
+    font-size:120%;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+header button.btn.btn-primary{
+    color: white;
+    background-color: unset;
+    border-color: white;
+    font-size: 70%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    border-style: solid;
+    border-radius: 0%;
+    padding: 10px 20px 10px 20px;
+}
+
+header button.btn.btn-primary:hover{
+    background-color: #7eb808;
+    border-color: #7eb808;
+    color: black;
+}
+
+header .arrow {
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    align-items: flex-end;
+}
+
+header .arrow a{
+    color: rgb(140, 140, 140);
+}
+
+header .row.arrow{
+    height: 33%;
+}
+
+@media (max-width: 375px){
+    header .header_icon
+    {
+        width: 35px;
+        height: 35px;
+        text-align: right;
+    }
+    header .header_icon a
+    {
+        font-size: 25px;
+    }
+    header nav ul li a
+    {
+        padding-left: 10px;
+        font-size: 100%;
+    }
+}
+
+/* ende header */
+
+
+/* start start */
+
+section.start{
+    background-color: #f4f4f4;
+}
+
+section.start .row{
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0;
+}
+
+section.start .icon_services i{
+    font-size: 300%;
+    color: #5b5b5b;
+    margin: 40px;
+}
+
+section.start h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 14px;
+    font-size: 170%;
+    margin: 20px 0 20px 0;
+    padding-left: 10px;
+    color: #5b5b5b;
+}
+
+section.start p{
+    color: #808080e2;
+    font-size: 130%;
+    line-height: 2.0;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* ende start*/
+
+/* start blocks*/
+
+section.blocks {
+    background-color: #f4f4f4;
+}
+section.blocks .row{
+    padding-bottom: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+section.blocks .col-6 {
+    background-color: white;
+    box-shadow: 0 0 7px rgba(204, 204, 204, 0.914);
+    margin: 15px;
+}
+
+section.blocks .col-6 i{
+    font-size: 270%;
+    padding: 40px 40px 20px 40px;
+    color: #7eb808;
+    border-color: black;
+}
+
+section.blocks .col-6 h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 120%;
+    padding: 0 15px 20px 15px;
+    text-align: center;
+    color: #606060;
+    line-height: 1.6;
+    margin: 0;
+}
+
+section.blocks .col-6 p{
+    color: #717171cc;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+@media (max-width: 375px){
+    section.blocks .col-6 h4
+    {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 3px;
+        font-size: 70%;
+        padding: 0 15px 20px 15px;
+    }
+}
+
+/* ende blocks*/
+
+/* start picgallery */
+
+section.picgallery{
+    background-color: #f4f4f4;
+}
+
+section.picgallery .row{
+    width: 100%;
+    margin: 0;
+}
+section.picgallery .col-sm-6{
+    padding: 0;
+}
+section.picgallery .row img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+section.picgallery .popup_container {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+section.picgallery .popup_box{
+    margin-top: -245px;
+    margin-left: 20px;
+    display: none;
+}
+
+section.picgallery .popup_box_yellow{
+    position: absolute;
+    background-color: rgba(165, 199, 87, 0.637);
+    height: 80%;
+    width: 70%;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+section.picgallery .popup_box_text{
+    position: absolute;
+    font-size: 80%;
+    background-color: #f4f4f4;
+    height: 63%;
+    width: 90%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+section.picgallery .popup_box_text .project{
+    text-transform: uppercase;
+    color: #5b5b5b;
+    font-size: 120%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 12px 8px 8px 8px;
+}
+
+section.picgallery .popup_box_text .txt{
+    line-height: 1.8;
+    font-weight: 500;
+    color: #717171;
+    padding: 0 5px 0 5px;
+}
+
+@media (max-width: 1400px){
+    section.picgallery .popup_box_text .txt{
+        line-height: 1.3;
+    }
+}
+
+
+/* end picgallery */
+
+/* start facts*/
+
+section.facts{
+    background-color: black;
+}
+section.facts .row{
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+section.facts .col-6{
+    background-color: white;
+    margin: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+}
+section.facts .col-6 p{ 
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #717171;
+    margin: 0 10px 5px 10px;
+}
+section.facts .col-6 span{ 
+    letter-spacing: 4px;
+    font-weight: 550;
+    color: #606060;
+    font-size: 90%;
+}
+
+@media (max-width: 320px){
+    section.facts .col-6 p
+    { 
+        font-size: 60%;
+    }
+}
+
+/* ende facts*/
+
+/* start price*/
+
+section.price{
+    background-color: #f4f4f4;
+}
+section.price .row{
+    justify-content: center;
+    text-align: center;
+}
+section.price .col-12.col-md-6{
+    margin: 60px 60px 80px 60px;
+}
+section.price .icon_portfolio i{
+    font-size: 250%;
+    color: #5b5b5b;
+}
+section.price h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 14px;
+    font-size: 160%;
+    margin: 20px 0 20px 0;
+    color: #5b5b5b;
+}
+section.price p{
+    color: #808080e2;
+    font-size: 180%;
+    line-height: 2.0;
+    font-weight: 700;
+    margin: 0;
+}
+section.price .buying p{
+    font-size: 90%;
+    font-weight: 300;
+}
+
+/* end price */
+
+
+
+/* start like-button */
+
+section.likeButton{
+    background-color: #000000;
+    text-align: center;
+    padding: 60px;
+    
+}
+section.likeButton button.btn.btn-primary{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 70%;
+    border-radius: 0;
+    padding: 10px 25px 10px 25px;
+    color: rgb(255, 255, 255);
+    background-color: unset;
+    border-color: rgb(255, 255, 255);
+}
+section.likeButton button.btn.btn-primary:hover{
+    color: rgb(0, 0, 0);
+    background-color: #7eb808;
+    border-color: #7eb808;
+}
+
+/* end like-button */
+
+
+/* start contact */
+
+section.contact{
+    background-color: #f4f4f4;
+    padding-bottom: 40px;
+}
+section.contact .row{
+    justify-content: center;
+    text-align: center;
+}
+section.contact .col-12.col-md-6{
+    margin: 60px;
+}
+section.contact .icon_team{
+    font-size: 250%;
+    color: #5b5b5b;
+}
+section.contact h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 14px;
+    font-size: 140%;
+    margin: 20px 0 20px 0;
+    color: #5b5b5b;
+}
+section.contact p{
+    color: #808080e2;
+    font-size: 120%;
+    line-height: 2.0;
+    font-weight: 500;
+    margin: 0;
+}
+
+section.team_pics .col-6.col-sm-4.col-lg-2{
+    margin: 10px;
+    padding: 0;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 7px rgba(204, 204, 204, 0.746);
+}
+section.team_pics .row{
+    justify-content: center;
+}
+section.team_pics .pic{
+    position: relative;
+}
+section.team_pics .transparent_container{
+    position: relative;
+}
+section.team_pics .name{
+    position: absolute;
+    bottom: 0;
+    background: #9ee60eb7;
+    width: 100%;
+}
+section.team_pics .name p{
+    margin: 0;
+    padding: 5px 10px;
+    font-weight: 800;
+    font-size: 150%;
+    color: #474747;
+    letter-spacing: 2px;
+}
+section.team_pics img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+section.team_pics .con{
+    padding: 5px;
+    font-size: 100%;
+    color: #5b5b5b;
+}
+
+/* end contact */
+
+/* start footer */
+
+section.footer{
+    background-color: black;
+    color: white;
+}
+section.footer .row{
+    justify-content: center;
+    font-size: 70%;
+    padding: 60px 20px 20px 20px;
+    margin: 0 40px 0 40px;
+}
+section.footer .info i{
+    color: black;
+    padding-top: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 10px 10px;
+}
+
+section.footer .links{
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+
+section.footer .links p{
+    margin-bottom: 8px;
+    
+}
+section.footer .links p a{
+    text-decoration: none;
+    color: white;
+    
+}
+section.footer  p.first{
+    font-size: larger;
+}
+section.footer button.btn.btn-primary{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 120%;
+    padding: 5px 60px 5px 60px;
+    border-radius: 15px;
+    color: black;
+    border-color: #ffe500;
+    background-color: #ffe500;
+    margin: 20px 0;
+}
+section.footer button.btn.btn-primary:hover{
+    color: black;
+    background-color: #ffe500;
+    border-color: #ffe500;
+}
+
+section.footer .footer_icons i{
+    color: black;
+    background-color: white;
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 10px 10px 0;
+}
+
+@media (max-width: 320px){
+    section.footer button.btn.btn-primary
+    {
+        padding: 0 10px 0 10px;
+    }
+}
+
+/* end footer */

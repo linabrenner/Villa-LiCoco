@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Villa Licoco</title>
+	
+	<!-- Load JQuery before any javascript gets included -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+	<!-- Load Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	
+	<!-- Load Font for icons -->
+	<script src="https://kit.fontawesome.com/4c45597173.js" crossorigin="anonymous"></script>
+	
+	<!-- Load custom css -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	<!-- Load javascript -->
+	<script src="javascript.js"></script>
+</head>
+
+<body>
+	<!-- 
+		Header
+	 -->
+	<header>
+		<div class="container">
+			<!-- 3 rows all height 33% -->
+			<div class="row nav">
+				<div class="nav_header">
+					<div class="header_icon">
+						<a href="index.html"><i class="fa-solid fa-water"></i>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="#picgallery">Pictures</a></li>
+							<li><a href="#price">Price</a></li>
+							<li><a href="#contact">Contact</a></li> 
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="row slogan">
+				<div class="slogan">
+					<div class="headline">
+						Villa Licoco
+					</div>
+					<div class="bottomline">
+						Living in Paradise
+					</div>
+					<div>
+						<a href="#start"><button class="btn btn-primary">Learn More</button></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row arrow">
+				<div>
+					<div class="arrow">
+						<a href="#start"><i class="fa-solid fa-angles-down"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</header>
+        
+    <!-- 
+		Main 
+	-->
+	<main>
+        
+        
+		<!-- section start-->
+		<section class="start" id="start"> 
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-md-6">
+						<div class="icon_services">
+							<i class="fa-solid fa-house"></i>
+						</div>
+						<div>
+							<h4>The House</h4>
+						</div>
+						<div>
+							<p>Built with heart and thought<br>Take a look at our offers</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- section end start -->
+
+		<!-- section blocks -->
+		<section class="blocks">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-6 col-sm-4 col-lg-2">
+						<i class="fa-solid fa-handshake"></i>
+						<h4>House<br> Rent</h4>
+						<p> We offer the house for long term rent.
+						</p>
+					</div>
+
+
+					<div class="col-6 col-sm-4 col-lg-2">
+						<i class="fa-solid fa-file-signature"></i>
+						<h4>House<br> Selling</h4>
+						<p>For the right people with the right price we offer to sell the house.
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- section end blocks-->
+		<!-- section picgallery -->
+		<section class="picgallery" id="picgallery">
+			<div class="row">
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xl-2">
+					<div class="popup_container" id="popup_container_1">
+						<img src="./images/haus.png" alt="picgallery1">
+						<div class="popup_box">
+							<div class="popup_box_yellow"></div>
+							<div class="popup_box_text">
+								<h5 class="project">User Experience</h5>
+								<p class="txt">Our Team is working on Designs and Layouts that are easy 
+									to use. Our Websites are all customerfriendly and uncomplicated.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xl-2">
+					<div class="popup_container" id="popup_container_2">
+						<img src="./images/haus.png" alt="picgallery2">
+						<div class="popup_box">
+							<div class="popup_box_yellow"></div>
+							<div class="popup_box_text">
+								<h5 class="project">Up To Date</h5>
+								<p class="txt">Modern and futuristic Design is one of our number one priorities. 
+									Therefore our team is currently searching for new trends and innovative ideas.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xl-2">
+					<div class="popup_container" id="popup_container_3">
+						<img src="./images/haus.png" alt="picgallery3">
+						<div class="popup_box">
+							<div class="popup_box_yellow"></div>
+							<div class="popup_box_text">
+								<h5 class="project">Apps</h5>
+								<p class="txt">WebDev has already finished 27 Applications. Together with our 
+									customers we developed an optimal solution to meet their expectations.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xl-2">
+					<div class="popup_container" id="popup_container_4">
+						<img src="./images/haus.png" alt="picgallery4">
+						<div class="popup_box">
+							<div class="popup_box_yellow"></div>
+							<div class="popup_box_text">
+								<h5 class="project">Development</h5>
+								<p class="txt">Our first step before we start with every project is to develope
+									 a detailed working plan from start to finish. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xl-2">
+					<div class="popup_container" id="popup_container_5">
+						<img src="./images/haus.png" alt="picgallery5">
+						<div class="popup_box">
+							<div class="popup_box_yellow"></div>
+							<div class="popup_box_text">
+								<h5 class="project">Customer Support</h5>
+								<p class="txt">Every new customer gets individul support with multiple personal
+									 meetings. A strong bond with our customers is essential for working together.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xl-2">
+					<div class="popup_container" id="popup_container_6">
+						<img src="./images/haus.png" alt="picgallery6">
+						<div class="popup_box">
+							<div class="popup_box_yellow"></div>
+							<div class="popup_box_text">
+								<h5 class="project">Our first Store</h5>
+								<p class="txt">If you are interested in working with us do not hesitate to meet 
+									us in our first WebDev Store in the heart of London.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section end picgallery -->
+
+
+		<!-- section facts-->
+		<section class="facts">
+			<div class="container"> 
+				<div class="row">
+
+					<div class="col-6 col-sm-4 col-lg-2">
+						<span style="font-family:Arial">100</span>
+						<p>square meters</p>
+					</div>
+
+					<div class="col-6 col-sm-4 col-lg-2">
+						<span style="font-family:Arial">2</span>
+						<p>tarea property</p>
+					</div>
+
+					<div class="col-6 col-sm-4 col-lg-2">
+						<span style="font-family:Arial">2</span>
+						<p>bedroom & bathroom</p>
+					</div>
+
+					<div class="col-6 col-sm-4 col-lg-2">
+						<span style="font-family:Arial">1</span>
+						<p>open living space</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- section end facts -->
+
+		<!-- section price-->
+		<section class="price" id="price">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-md-6">
+						<div class="icon_portfolio">
+							<i class="fa-solid fa-money-bills"></i>
+						</div>
+						<div>
+							<h4>Renting Price</h4>
+						</div>
+						<div>
+							<p>Monthly rent only 30.000 Peso Dominicano</p>
+						</div>
+                        <div class="buying">
+							<p>* If you are interested in buying please send us your price offer.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- section end portfolio -->
+
+
+		<!-- section like button -->
+		<section class="likeButton">
+			<div class="container">
+				<div class="row">
+					<div>
+						
+                        <a href="#contact"><button class="btn btn-primary">Like What You See?</button></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section end like button -->
+
+		<!-- section contact -->
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-md-6">
+						<div class="icon_team">
+							<i class="fa-solid fa-address-card"></i>
+						</div>
+						<div>
+							<h4>contact</h4>
+						</div>
+						<div class="headline_team">
+							<p>If you are interested please feel free to reach out to us.
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- inner section team pics -->
+			<section class="team_pics">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-6 col-sm-4 col-lg-2">
+							<div class="pic">
+								<img src="./images/nico.png" alt="teammember nico">
+								<div class="name">
+									<p>Nico</p>
+								</div>
+							</div>
+							<div class="transparent_container">
+								<p class="con">telephone:</p>
+                                <p class="con">email:</p>						
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-4 col-lg-2">
+							<div class="pic">
+								<img src="./images/lina.png" alt="teammember lina">
+								<div class="name">
+									<p>Lina</p>
+								</div>
+							</div>
+							<div class="transparent_container">
+								<p class="con">telephone:</p>
+                                <p class="con">email:</p>					
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- inner section end team pics-->
+
+		</section>
+		<!-- section end team-->
+
+		
+		<!-- section footer-->
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-10  col-md-3">
+						<div class="info">
+							<div class="info_text">
+								<i class="fa-brands fa-slack"></i>
+								<p>This Website is made from WebDev Development. WebDev Development ensures 
+									that this is individual work without external factors or help. Please feel 
+									free to reach out to us for any questions.
+								</p>
+								<p style="color:yellow;">Created by Marc Smith, Eva Brook </p>
+								<p>@ WebDev Development</p>
+							</div>   
+						</div>
+					</div>
+					<div class="links col-5 col-md-2">
+						<div class="links1">
+							<p class="first"><a href="#">Links</a></p>
+							<p><a href="index.html">Home</a></p>
+							<p><a href="#services">Our Services</a></p>
+							<p><a href="#portfolio">Portfolio</a></p>
+							<p><a href="#">Testomonials</a></p>
+							<p><a href="#">Support</a></p>
+							<p><a href="#">Termns and Conditions</a></p>
+						</div>
+					</div>
+					<div class="links col-5 col-md-2">
+						<div class="links2">
+							<p class="first"><a href="#">About us</a></p>
+							<p><a href="#">Sign in</a></p>
+							<p><a href="#">Register</a></p>
+							<p><a href="#team">About us</a></p>
+							<p><a href="#">Blog</a></p>
+							<p><a href="#">Contact us</a></p>
+						</div>
+					</div>
+					<div class="contact col-10  col-md-3">
+						<div class="contact">
+							<p class="first">Contact us</p>
+							<p>Please feel free to contact us </p>
+							<button class="btn btn-primary">Smith.Marc@WebDev.com</button>
+							<div>
+								<a class="footer_icons" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								<a class="footer_icons" href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a class="footer_icons" href="#"><i class="fa-brands fa-google"></i></a>
+								<a class="footer_icons" href="#"><i class="fa-sharp fa-solid fa-basketball"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</section>
+		<!-- section end footer -->
+	</main>
+	<!-- 
+		end Main
+	-->
+</body>
+
+</html>
